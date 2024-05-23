@@ -13,7 +13,6 @@ def is_prime(num):
                 return False
         return True
     
-import numpy as np
 def repknapsackdp(W,weight,value): #knapsack problem with repetition
     n=len(weight)
     maxval=np.zeros(W+1)
